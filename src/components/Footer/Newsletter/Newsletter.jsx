@@ -10,13 +10,13 @@ const Newsletter = () => {
             <input type="text" placeholder="Email Address" />
             <button>Subscribe</button>
         </div>
-        <div className="text">Will be used in Accordance with our privacy policy</div>
+        <div className="text">Will be used in Accordance with our <br/> privacy policy</div>
         <div className="social-icons">
             <div className="icon">
-                <FaFacebookF size={14}/>
-                <FaGithub size={14}/>
-                <FaLinkedinIn size={14}/>
-                <FaInstagram size={14}/>
+                <FaFacebookF size={18}/>
+                <FaLinkedinIn size={18}/>
+                <FaGithub size={18}/>
+                <FaInstagram size={18}/>
             </div>
         </div>
       </div>
