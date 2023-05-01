@@ -8,9 +8,7 @@ const Footer = () => {
         <div className="col">
           <div className="title">About</div>
           <div className="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/>Totam
-            recusandae iste, et minima iure ut cum laboriosam <br/>consequuntur ipsam
-            voluptates.
+          I am MERN stack developer with a strong understanding of front-end and back-end technologies. Passionate about crafting scalable and maintainable web applications. Seeking an opportunity to apply skills and contribute to a dynamic team environment..
           </div>
         </div>
         <div className="col">
