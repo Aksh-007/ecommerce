@@ -8,8 +8,8 @@ const Footer = () => {
         <div className="col">
           <div className="title">About</div>
           <div className="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
-            recusandae iste, et minima iure ut cum laboriosam consequuntur ipsam
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/>Totam
+            recusandae iste, et minima iure ut cum laboriosam <br/>consequuntur ipsam
             voluptates.
           </div>
         </div>
@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="c-item">
             <FaLocationArrow />
             <div className="text">
-              Koradi Road, Panjara, Nagpur,Maharrashtra, 441111
+              Koradi Road, Panjara, Nagpur,<br/>Maharashtra, 441111
             </div>
           </div>
           <div className="c-item">
@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
         <div className="col">
           <div className="title">Pages</div>
-          <div className="title">Home</div>
+          <div className="text">Home</div>
           <div className="text">About</div>
           <div className="text">Privacy Policy</div>
           <div className="text">Returns</div>
