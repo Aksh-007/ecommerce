@@ -1,0 +1,92 @@
+@import "../../css-config/mixins.scss";
+
+.main-header {
+  width: 100%;
+  height: 9vh;
+  background-color: #212121;
+  color: aqua;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  z-index: 20;
+  align-items: center;
+  @include md{
+    padding: 0px;
+  }
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    max-width: 89%;
+    margin:  auto;
+    padding-top: 30px;
+    @include md{
+        height: 5vh;
+        max-width: 70%;
+    }
+    .left {
+      display: none;
+      list-style: none;
+      gap: 20px;
+      @include md{
+        display: flex;
+      }
+      li {
+        text-transform: uppercase;
+        cursor: pointer;
+        font-size: 1rem;
+        font-weight: 600;
+      }
+    }
+    .center {
+      font-size: 1.1rem;
+      font-weight: 600;
+      cursor: pointer;
+      @include md{
+        position: absolute;
+        left: 53%;
+        transform: translateX(-50%);
+      }
+    }
+    .right {
+      align-items: center;
+      display: flex;
+      gap: 20px;
+      svg{
+        cursor: pointer;
+        font-size: larger;
+        @include md{
+            gap: 10px;
+          }
+      }
+      .cart-icon {
+        position: relative;
+        display: flex;
+        align-items: center;
+        span{
+            min-width: 15px;
+            text-align: center;
+            background-color: #8e2de2;
+            padding: 2px;
+            border-radius: 15px;
+            position: absolute;
+            right: -12px;
+            font-size: 12px;
+            line-height: 1;
+            top: -6px;
+        }
+
+      }
+    }
+  }
+  &.sticky-header{
+    position: sticky;
+    top: 0%;
+    transform: translateY(-5vh);
+    animation: stickyHeader 0.3s ease forwards;
+  }
+}
+
+@keyframes stickyHeader{
+    0%{transform: translateY(-5vh);}
+    100%{transform: translateY(0);}
+}
