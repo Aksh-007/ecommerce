@@ -38,7 +38,7 @@
       }
     }
     .center {
-      font-size: 1.1rem;
+      font-size: 1.3rem;
       font-weight: 600;
       cursor: pointer;
       @include md{
@@ -53,9 +53,10 @@
       gap: 20px;
       svg{
         cursor: pointer;
-        font-size: larger;
+        font-size: 2rem;
         @include md{
             gap: 10px;
+            font-size: 1.3rem;
           }
       }
       .cart-icon {
