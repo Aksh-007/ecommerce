@@ -21,6 +21,7 @@
     @include md {
     }
     .small-text {
+        font-size: 1.5rem;
       margin-bottom: 15px;
       color: rgba(0, 0, 0, 0.5);
       text-transform: uppercase;
@@ -28,7 +29,7 @@
     .big-text {
       text-transform: uppercase;
       margin-bottom: 20px;
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       line-height: 30px;
       padding: 0 30px;
       @include md {
@@ -40,8 +41,10 @@
       display: flex;
       gap: 5px;
       margin-bottom: 10px;
+      font-size: 1.2rem;
       input {
-        width: 200px;
+        width: 220px;
+        height: 38px;
         padding: 5px;
         border: 1px solid rgba(0, 0, 0, 0.5);
         outline: none;
@@ -49,8 +52,12 @@
           width: 300px;
           height: 30px;
         }
+        ::placeholder{
+            font-size: 1rem;
+        }
       }
       button {
+        font-size: 1rem;
         outline: 0;
         border: 0;
         text-align: center;
@@ -59,6 +66,10 @@
         background-color: #8e2de2;
         border-radius: 2px;
       }
+    }
+    .text{
+        margin-top: 20px;
+        font-size: 1.2rem;
     }
 
     .social-icons {
