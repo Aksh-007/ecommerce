@@ -1,13 +1,13 @@
 import "./Home.scss";
 import Banner from "./Banner/Banner";
-import Category from "./Category/Category"
+import HomeCategory from "./HomeCategory/HomeCategory"
 const Home = () => {
    return(
      <div >
         <Banner/>
         <div className="main-content">
           <div className="layout">
-            <Category/>
+            <HomeCategory/>
           </div>
         </div>
      </div>
