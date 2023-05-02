@@ -23,7 +23,7 @@
       }
       .text {
         font-size: 1.2rem;
-        color: rgba(0, 0, 0, 0.6);
+        color: rgba(0, 0, 0, 0.4);
       }
       .c-item {
         display: flex;
@@ -44,6 +44,7 @@
         }
       }
     }
+  }
     .bottom-bar {
       border-top: 1px solid rgba(0, 0, 0, 0.5);
       .bottom-bar-content {
@@ -55,19 +56,19 @@
         @include md {
           font-size: 0.8rem;
           padding: 0px 40px;
-          height: 10vh;
+          height: 6vh;
           margin: 0 auto;
           display: flex;
           flex-direction: row;
+          
           justify-content: space-between;
         }
         .text {
           color: rgba(0, 0, 0, 0.5);
         }
         img {
-          margin-top: 10px;
+          margin-top: 3px;
         }
       }
     }
-  }
 }
