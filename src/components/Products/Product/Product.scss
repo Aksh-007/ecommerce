@@ -1,1 +1,43 @@
 @import "../../../css-config/mixins.scss";
+
+.product-card {
+  padding: 3px;
+  width: calc(50% - 5px);
+  text-align: center;
+  cursor: pointer;
+  @include md {
+    width: calc(23% - 15px);
+    margin: 0px 0px 20px 13px;
+  }
+  .image-section {
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.05);
+    img {
+      width: 100%;
+      transition: all ease 0.3s;
+      display: block;
+    }
+  }
+  .product-details {
+    .name {
+      margin-top: 10px;
+      font-size: 1rem;
+      // usefull to stop overflow of description
+      display: block;
+      // overflow-wrap: break-word;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      @include md {
+        margin-top: 5px;
+      }
+    }
+  }
+  &:hover {
+    .image-section {
+      img {
+        transform: scale(1.1);
+      }
+    }
+  }
+}

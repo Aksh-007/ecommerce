@@ -1,8 +1,19 @@
 import "./Products.scss";
+import Product from './Product/Product'
 const Products = () => {
     return (
-        <div>
-            <h1>Products </h1>
+        <div className="products-container">
+            <div className="section-heading">Section Heading</div>
+            <div className="products">
+                <Product/>
+                <Product/>
+                <Product/>
+                <Product/>
+                <Product/>
+                <Product/>
+                <Product/>
+                <Product/>
+            </div>
         </div>
     );
 };
