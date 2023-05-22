@@ -3,6 +3,7 @@ import { TbSearch } from "react-icons/tb";
 import { AiOutlineHeart } from "react-icons/ai";
 import { CgShoppingCart } from "react-icons/cg";
 import { useEffect, useState } from "react";
+// import { Link } from "react-router-dom";
 const Header = () => {
   const [scroll, setScroll] = useState(false);
   useEffect(() => {
@@ -19,7 +20,7 @@ const Header = () => {
       <div className="header-content">
         <ul className="left">
           <li>Home</li>
-          <li>About</li>
+          <li>About </li>
           <li>Category</li>
         </ul>
         <div className="center">My | Store</div>
