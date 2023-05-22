@@ -74,8 +74,10 @@
             font-size: 12px;
             line-height: 1;
             top: -6px;
-        }
-
+          @include md{
+            top: -8px;
+          }
+          }
       }
     }
   }
